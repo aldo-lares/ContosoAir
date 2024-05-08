@@ -8,6 +8,7 @@ class AirportsService {
     }
 
     getAll(){
+        //sample
         return this._airports.filter(a => a.code).map(avoidEmptyCity);
     }
 
